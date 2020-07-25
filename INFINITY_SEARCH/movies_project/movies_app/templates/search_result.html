@@ -1,0 +1,14 @@
+{%extends 'base.html'%}
+{%block content%}
+<div class="home" id="se">  <h1 id="shead"><span id="search">Re</span>sults</h1></div>
+
+<div class="title">
+      {%for movie in object_list%}
+
+
+        <p>{{movie.title}}</p>
+
+
+      {%endfor%}
+</div>
+{%endblock%}}

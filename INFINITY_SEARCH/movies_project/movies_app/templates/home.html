@@ -1,0 +1,10 @@
+{%extends 'base.html'%}
+{%block content%}
+
+    <div class="home"><a href="{%url 'home'%}"><section><h1><span class="le">In</span><span id="hi">finity</span><span class="le">Se</span><span id="hi">arch</span></h1></section></a></div>
+    
+    <form action="{% url 'search_results' %}" method="get"> -->
+      <input name="q" type="text" placeholder="Search...">
+
+    <!-- </form>
+{%endblock%}

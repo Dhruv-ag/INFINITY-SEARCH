@@ -1,0 +1,99 @@
+body{
+margin: 0;
+padding:0;
+background-color: #000;
+
+}
+section{
+
+  background: #000;
+}
+h1
+{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 10%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  color:#ddd;
+  font-size: 5em;
+  font-family: 'Grenze Gotisch', cursive;
+  letter-spacing: 0.1em;
+
+}
+.le
+{
+  opacity: 0;
+  display: inline-block;
+  animation: animate 1s linear forwards;
+  color:red;
+}
+  #hi{
+    opacity: 0;
+    display: inline-block;
+    animation: animate 2.5s linear forwards;
+  }
+@keyframes animate
+{
+    0%
+    {
+      opacity: 0;
+      transform: rotateY(90deg);
+      filter: blur(10px);
+    }
+    100%
+    {
+      opacity:1;
+      transform: rotateY(0deg);
+      filter: blur(0px);
+    }
+}
+input{
+  position: absolute;
+  top: 50%;
+  padding: 0;
+  margin: 0;
+  left:32.5%;
+  font-size: 40px;
+  border-radius: 10px;
+  border: solid 2px red;
+}
+a
+{
+  text-decoration: none;
+}
+#search
+{
+  opacity: 0;
+  display: inline-block;
+  animation: animate 1.3s linear forwards;
+  color:red;
+
+}
+#shead
+{
+  /* background-color: black; */
+  padding: 10px;
+  margin: 10px;
+
+
+
+}
+.title
+{
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  position: absolute;
+  top: 30%;
+left: 35%;
+  font-family: 'Krona One', sans-serif;
+}
+div #se
+{
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+}
